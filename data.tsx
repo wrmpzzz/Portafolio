@@ -1,4 +1,4 @@
-import { BellPlus, BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
     {
@@ -150,45 +150,9 @@ export const dataExperience = [
                 value: 60,
             },
             {
-                name: "Bootstrap",
+                name: "Nextjs",
                 subtitle: "Basic",
                 value: 50,
-            },
-        ],
-    },
-    {
-        id: 2,
-        title: "Backend Development  🥷",
-        experience: [
-            {
-                name: "Node JS",
-                subtitle: "Experimentado",
-                value: 80,
-            },
-            {
-                name: "Mongo DB",
-                subtitle: "Intermedio",
-                value: 75,
-            },
-            {
-                name: "Python",
-                subtitle: "Basic",
-                value: 60,
-            },
-            {
-                name: "MySQL",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "PHP",
-                subtitle: "Experimentado",
-                value: 60,
-            },
-            {
-                name: "Django",
-                subtitle: "Basic",
-                value: 60,
             },
         ],
     },
@@ -223,40 +187,9 @@ export const dataServices = [
                 name: "Mantenimiento y soporte continuo",
             },
         ],
-    },
+    },    
     {
         id: 2,
-        title: "Creación de contenido",
-        icon: <BellPlus />,
-        features: [
-            {
-                name: "Redacción de contenido original y de calidad",
-            },
-            {
-                name: "Creación de vídeos atractivos y dinámicos",
-            },
-            {
-                name: "Diseño gráfico para una imagen impactante",
-            },
-            {
-                name: "Edición profesional de textos y materiales visuales",
-            },
-            {
-                name: "Estrategias de marketing de contenidos efectivas",
-            },
-            {
-                name: "Producción de podcasts informativos y entretenidos",
-            },
-            {
-                name: "Generación de infografías claras y visualmente atractivas",
-            },
-            {
-                name: "Fotografía profesional para capturar momentos excepcionales",
-            },
-        ],
-    },
-    {
-        id: 3,
         title: "UI/UX Design",
         icon: <Brush />,
         features: [
