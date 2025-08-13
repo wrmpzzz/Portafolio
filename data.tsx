@@ -1,23 +1,17 @@
-import { BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
+import { BookText, Briefcase, Brush, Code2, CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
     {
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "+4 años de experiencia",
-    },
-    {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
+        description: "+1 año de experiencia",
     },
     {
         id: 3,
         name: "Proyectos",
         icon: <Wrench />,
-        description: "+50 completados",
+        description: "+20 completados",
     },
 ];
 
@@ -127,22 +121,22 @@ export const dataExperience = [
             {
                 name: "HTML",
                 subtitle: "Experimentado",
-                value: 80,
+                value: 90,
             },
             {
                 name: "CSS",
                 subtitle: "Intermedio",
-                value: 75,
+                value: 70,
             },
             {
                 name: "JavaScript",
                 subtitle: "Experimentado",
-                value: 60,
+                value: 70,
             },
             {
                 name: "Tailwind CSS",
                 subtitle: "Experimentado",
-                value: 30,
+                value: 50,
             },
             {
                 name: "React",
@@ -152,7 +146,7 @@ export const dataExperience = [
             {
                 name: "Nextjs",
                 subtitle: "Basic",
-                value: 50,
+                value: 30,
             },
         ],
     },
@@ -217,27 +211,27 @@ export const dataServices = [
 
 
 export const dataContact = [
-    {
-        id: 1,
-        title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
-        icon: <Phone />,
-    },
-    {
-        id: 2,
-        title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
-        icon: <Code2 />,
-    },
-    {
-        id: 3,
-        title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
-        icon: <Inbox />,
-    },
+  {
+    id: 1,
+    title: "Teléfono",
+    subtitle: "+58 424 3786677",
+    link: "tel:+58 424 3786677",
+    icon: <Phone />,
+  },
+  {
+    id: 2,
+    title: "Github",
+    subtitle: "wrmpzzz",
+    link: "https://github.com/wrmpzzz",
+    icon: <Code2 />,
+  },
+  {
+    id: 3,
+    title: "Email",
+    subtitle: "wm0803687@gmail.com",
+    link: "wm0803687@gmail.com",
+    icon: <Inbox />,
+  },
 ];
 
 export const dataTestimonials = [

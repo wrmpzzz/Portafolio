@@ -28,7 +28,7 @@ export default function Contact() {
                             target="_blank"
                             className="text-center px-4 py-2 text-sm rounded-full bg-gray-100 dark:bg-transparent duration-300 w-full border-2 border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black hover:shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:dark:shadow-[4px_4px_0_0_rgba(255,255,255,1)]"
                         >
-                            Send message
+                            Link
                         </Link>
                     </div>
                 ))}

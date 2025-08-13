@@ -33,7 +33,7 @@ const AboutMe = () => {
                     </Carousel>
                 </div>
                 <div>
-                    <div className="grid md:grid-cols-3 mt-7 gap-4">
+                    <div className="grid md:grid-cols-2 mt-7 gap-4">
                         {dataAboutMe.map((data) => (
                             <div
                                 key={data.id}
@@ -45,14 +45,11 @@ const AboutMe = () => {
                             </div>
                         ))}
                     </div>
-                    <p className="my-8"> Soy un desarrollador apasionado que encuentra su mayor
-                        inspiración entre líneas de código y algoritmos desafiantes.
-                        Cuando no estoy inmerso en la programación, disfruto del aire
-                        libre y el deporte, creyendo firmemente en mantener un equilibrio entre
-                        mente y cuerpo. Además, soy un ávido lector, encontrando en los
-                        libros una fuente inagotable de conocimiento y crecimiento personal.
-                        En las redes sociales, comparto mi pasión por la programación, creando contenido
-                        inspirador y educativo para conectar con otros apasionados del desarrollo de software.</p>
+                    <p className="my-8 text-justify"> 💻 Desarrollador Frontend | 21 años
+
+                        Apasionado por crear interfaces intuitivas y eficientes con JavaScript, React y Tailwind CSS. Disfruto transformar diseños en experiencias digitales fluidas, donde cada píxel y cada interacción cuentan.
+
+                        Mi enfoque va más allá del código: busco soluciones que equilibren rendimiento, mantenibilidad y elegancia. Siempre aprendiendo, siempre mejorando.</p>
 
                     <Button>
                         <Phone size={20} className="mr-2" /> Hablamos

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { Mail, Paperclip } from "lucide-react";
+import { Mail } from "lucide-react";
 import Image from "next/image";
 import Container from "./shared/container";
 
@@ -29,14 +29,6 @@ const Introduction = () => {
                     >
                         <Mail size={18} />
                         Contact me
-                    </Link>
-                    <Link 
-                        href="/cv-tarre.pdf" 
-                        target="_blank"
-                        className={`${buttonVariants({ variant: "outline" })} gap-2 px-6 py-3`}
-                    >
-                        <Paperclip size={18} />
-                        Download CV
                     </Link>
                 </div>
 

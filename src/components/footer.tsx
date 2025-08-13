@@ -3,8 +3,8 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react"
 
 export const Footer = () => {
   const socialLinks = [
-    { icon: <Github className="w-4 h-4" />, href: "https://github.com" },
-    { icon: <Linkedin className="w-4 h-4" />, href: "https://linkedin.com" },
+    { icon: <Github className="w-4 h-4" />, href: "https://github.com/wrmpzzz" },
+    { icon: <Linkedin className="w-4 h-4" />, href: "https://www.linkedin.com/in/williams-mu%C3%B1oz-893623289/" },
     { icon: <Twitter className="w-4 h-4" />, href: "https://twitter.com" },
     { icon: <Mail className="w-4 h-4" />, href: "mailto:contact@example.com" }
   ]
