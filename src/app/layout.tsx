@@ -7,7 +7,6 @@ const urbanist = Urbanist({
   subsets: ["latin"],
 });
 
-
 export const metadata: Metadata = {
   title: "Portafolio",
   description: "Mi portafolio",
@@ -19,14 +18,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body
-        className={`${urbanist.className} antialiased`}
-      >
-        <ThemeProvider attribute="class"
+    <html lang="es">
+      <body className={`${urbanist.className} antialiased`}>
+        <ThemeProvider
+          attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange>
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
       </body>
