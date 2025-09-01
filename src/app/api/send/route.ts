@@ -11,7 +11,7 @@ export async function POST(req: Request) {
                 from: 'onboarding@resend.dev',
                 to: ['wm0803687@gmail.com'],
                 subject: 'Portfolio Contact Form Submission',
-                react: EmailTemplate({
+                react: await EmailTemplate({
                     name: dataForm.name,
                     email: dataForm.email,
                     message: dataForm.message,
