@@ -15,7 +15,7 @@ export default function Portafolio() {
                 {dataPortfolio.map((data) => (
                     <div key={data.id} className="p-6 rounded-xl border border-gray-300 hover:border-gray-400 transition-colors duration-300 w-full">
                         <h3 className="text-center text-xl font-medium mb-6 md:mb-8">{data.title}</h3>
-                        <Image src={data.image} alt='slider' width={250} height={400}
+                        <Image src={data.image} alt='slider' width={200} height={300}
                             className="rounded-2xl w-full h-auto"
                         />
                         <p className="text-gray-white text-sm mt-1">{data.title}</p>

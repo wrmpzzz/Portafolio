@@ -72,51 +72,51 @@ export const dataPortfolio = [
         id: 1,
         title: "Web Pro",
         image: "/image-1.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/wrmpzzz/App-Crud",
+        urlDemo: "https://app-crud-lemon.vercel.app/",
     },
     {
         id: 2,
         title: "Desarrollo Web Ágil",
         image: "/image-2.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://github.com/wrmpzzz/Tic-Tac-Toe",
+        urlDemo: "https://tresenra.netlify.app/",
     },
     {
         id: 3,
         title: "Estrategias Web",
         image: "/image-3.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
+        urlGithub: "https://quiz-zustand.netlify.app/",
+        urlDemo: "https://github.com/wrmpzzz/Quiz-zustand",
     },
-    {
-        id: 4,
-        title: "Navegando Ideas Creativas",
-        image: "/image-4.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    // {
+    // //     id: 4,
+    // //     title: "Navegando Ideas Creativas",
+    // //     image: "/image-4.jpg",
+    // //     urlGithub: "#!",
+    // //     urlDemo: "#!",
+    // // },
+    // // {
+    // //     id: 5,
+    // //     title: "Sitios Web Impactantes",
+    // //     image: "/image-5.jpg",
+    // //     urlGithub: "#!",
+    // //     urlDemo: "#!",
+    // // },
+    // // {
+    // //     id: 6,
+    // //     title: "Proyectos Web Dinámicos",
+    // //     image: "/image-6.jpg",
+    // //     urlGithub: "#!",
+    // //     urlDemo: "#!",
+    // // },
 ];
 
 
 export const dataExperience = [
     {
         id: 1,
-        title: "Frontend Development  💄",
+        title: "Frontend Development 💄",
         experience: [
             {
                 name: "HTML",
@@ -229,7 +229,7 @@ export const dataContact = [
     id: 3,
     title: "Email",
     subtitle: "wm0803687@gmail.com",
-    link: "wm0803687@gmail.com",
+    link: "https://mail.google.com/mail/",
     icon: <Inbox />,
   },
 ];
