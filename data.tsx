@@ -86,8 +86,8 @@ export const dataPortfolio = [
         id: 3,
         title: "Estrategias Web",
         image: "/image-3.jpg",
-        urlGithub: "https://quiz-zustand.netlify.app/",
-        urlDemo: "https://github.com/wrmpzzz/Quiz-zustand",
+        urlGithub: "https://github.com/wrmpzzz/Quiz-zustand",
+        urlDemo: "https://quiz-zustand.netlify.app/",
     },
     // {
     // //     id: 4,
@@ -181,7 +181,7 @@ export const dataServices = [
                 name: "Mantenimiento y soporte continuo",
             },
         ],
-    },    
+    },
     {
         id: 2,
         title: "UI/UX Design",
@@ -211,27 +211,27 @@ export const dataServices = [
 
 
 export const dataContact = [
-  {
-    id: 1,
-    title: "Teléfono",
-    subtitle: "+58 424 3786677",
-    link: "tel:+58 424 3786677",
-    icon: <Phone />,
-  },
-  {
-    id: 2,
-    title: "Github",
-    subtitle: "wrmpzzz",
-    link: "https://github.com/wrmpzzz",
-    icon: <Code2 />,
-  },
-  {
-    id: 3,
-    title: "Email",
-    subtitle: "wm0803687@gmail.com",
-    link: "https://mail.google.com/mail/",
-    icon: <Inbox />,
-  },
+    {
+        id: 1,
+        title: "Teléfono",
+        subtitle: "+58 424 3786677",
+        link: "tel:+58 424 3786677",
+        icon: <Phone />,
+    },
+    {
+        id: 2,
+        title: "Github",
+        subtitle: "wrmpzzz",
+        link: "https://github.com/wrmpzzz",
+        icon: <Code2 />,
+    },
+    {
+        id: 3,
+        title: "Email",
+        subtitle: "wm0803687@gmail.com",
+        link: "https://mail.google.com/mail/",
+        icon: <Inbox />,
+    },
 ];
 
 export const dataTestimonials = [
